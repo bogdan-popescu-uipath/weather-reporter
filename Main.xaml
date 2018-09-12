@@ -56,7 +56,7 @@
       <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Hello guys!" sap2010:WorkflowViewState.IdRef="Sequence_3">
+  <Sequence DisplayName="Hello!" sap2010:WorkflowViewState.IdRef="Sequence_3">
     <Sequence.Variables>
       <Variable x:TypeArguments="ui:GenericValue" Name="SpanWobTm" />
     </Sequence.Variables>
@@ -99,7 +99,7 @@
         </ActivityAction>
       </ui:OpenBrowser.Body>
     </ui:OpenBrowser>
-    <sads:DebugSymbol.Symbol>d0JDOlxVc2Vyc1xib2dkYW4ucG9wZXNjdVxEb2N1bWVudHNcVWlQYXRoXFdlYXRoZXJSZXBvcnRlclxNYWluLnhhbWwTOwNnDgIBAT8FZRYCAQI/twE/xwECARRFC2IWAgEDRg1KGwIBE0sNYRgCAQRMD1AdAgEQUQ9YIAIBDFkPWasBAgEKWg9fJwIBBmAPYHYCAQVOogFOzQECARJMqAJMxQICARFTogFTzAECAQ9WQlZNAgENWXxZqAECAQtdTl1ZAgEJXEdcTQIBCFrCAVrUAQIBBw==</sads:DebugSymbol.Symbol>
+    <sads:DebugSymbol.Symbol>dzxDOlxVc2Vyc1xib2dkYW4ucG9wZXNjdVxEb2N1bWVudHNcd2VhdGhlci1yZXBvcnRlclxNYWluLnhhbWwTOwNnDgIBAT8FZRYCAQI/twE/xwECARRFC2IWAgEDRg1KGwIBE0sNYRgCAQRMD1AdAgEQUQ9YIAIBDFkPWasBAgEKWg9fJwIBBmAPYHYCAQVOogFOzQECARJMqAJMxQICARFTogFTzAECAQ9WQlZNAgENWXxZqAECAQtdTl1ZAgEJXEdcTQIBCFrCAVrUAQIBBw==</sads:DebugSymbol.Symbol>
   </Sequence>
   <sap2010:WorkflowViewState.ViewStateManager>
     <sap2010:ViewStateManager>

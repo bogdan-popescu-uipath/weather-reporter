@@ -3,38 +3,37 @@
   "description": "Blank Project",
   "main": "Main.xaml",
   "dependencies": {
-    "Excel.Extended.Activities": "1.0.3.0",
-    "GenerateRandomPasswordActivities": "1.0.1.0",
-    "HTMLDataTableCustomActivities": "11.0.0.0",
-    "MessageBoxActivities": "1.0.3.0",
-    "Microsoft.Activities.Extensions": "2.0.6.9",
-    "MSTest.TestAdapter": "1.1.11.0",
-    "MSTest.TestFramework": "1.1.11.0",
-    "System.Management.Automation": "6.1.7601.17515",
-    "UiPath.Cognitive.Activities": "2.0.6716.19435",
-    "UiPath.Core.Activities": "18.2.6718.20694",
-    "UiPath.Credentials.Activities": "1.1.6479.13204",
-    "UiPath.Database.Activities": "1.1.6660.26865",
-    "UiPath.Excel.Activities": "2.3.6660.23035",
-    "UiPath.Framework.Activities": "1.0.5905.30080",
-    "UiPath.FTP.Activities": "1.0.6479.13206",
-    "UiPath.IntelligentOCR.Activities": "1.0.6725.18428",
-    "UiPath.Mail.Activities": "1.1.6562.21018",
-    "UiPath.PDF.Activities": "1.0.6479.13204",
-    "UiPath.Platform.Activities": "2.1.5992.2567",
-    "UiPath.Python.Activities": "1.0.6716.23055",
-    "UiPath.Terminal.Activities": "1.1.6464.20815",
-    "UiPath.V7.Activities": "7.0.5715.29283",
-    "UiPath.WebAPI.Activities": "1.1.6479.13209",
-    "UiPath.Word.Activities": "1.1.6479.13205",
-    "UiPathTeam.GoogleSpreadsheet.Activities": "2.0.1.0"
+    "HTMLDataTableCustomActivities": "[11.0.0]",
+    "Microsoft.Activities.Extensions": "[2.0.6.9]",
+    "System.Management.Automation": "[6.1.7601.17515]",
+    "UiPath.Cognitive.Activities": "[2.0.6716.19435]",
+    "UiPath.Credentials.Activities": "[1.1.6479.13204]",
+    "UiPath.Database.Activities": "[1.1.6660.26865]",
+    "UiPath.Excel.Activities": "[2.3.6660.23035]",
+    "UiPath.FTP.Activities": "[1.0.6479.13206]",
+    "UiPath.IntelligentOCR.Activities": "[1.0.6725.18428]",
+    "UiPath.Mail.Activities": "[1.1.6562.21018]",
+    "UiPath.PDF.Activities": "[1.0.6479.13204]",
+    "UiPath.System.Activities": "[18.3.6810.23775]",
+    "UiPath.Python.Activities": "[1.0.6716.23055]",
+    "UiPath.Terminal.Activities": "[1.1.6464.20815]",
+    "UiPath.UIAutomation.Activities": "[18.3.6810.23792]",
+    "UiPath.WebAPI.Activities": "[1.1.6479.13209]",
+    "UiPath.Word.Activities": "[1.1.6479.13205]"
   },
-  "excludedData": [
-    "Private:*",
-    "*password*"
-  ],
-  "toolVersion": "18.2",
+  "schemaVersion": "3.2",
+  "studioVersion": "0.0.0.0",
   "projectVersion": "1.0.1.12",
-  "packOptions": {},
-  "runtimeOptions": {}
+  "runtimeOptions": {
+    "autoDispose": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ]
+  },
+  "projectType": "Workflow",
+  "libraryOptions": {
+    "includeOriginalXaml": false,
+    "privateWorkflows": []
+  }
 }

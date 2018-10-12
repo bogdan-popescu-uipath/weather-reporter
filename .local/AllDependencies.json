@@ -85,7 +85,7 @@
           "lib/DocumentFormat.OpenXml.dll": {}
         }
       },
-      "DocX/1.0.0.18": {
+      "DocX/1.0.0.19": {
         "type": "package",
         "compile": {
           "lib/net40/_._": {}
@@ -94,7 +94,7 @@
           "lib/net40/DocX.dll": {}
         }
       },
-      "EPPlus/4.0.4": {
+      "EPPlus/4.0.5": {
         "type": "package",
         "compile": {
           "lib/net20/_._": {}
@@ -156,7 +156,7 @@
           }
         }
       },
-      "Fluent.Ribbon/3.5.1.198": {
+      "Fluent.Ribbon/3.6.1.236": {
         "type": "package",
         "compile": {
           "lib/net45/_._": {}
@@ -758,22 +758,22 @@
         "lib/DocumentFormat.OpenXml.dll"
       ]
     },
-    "DocX/1.0.0.18": {
-      "sha512": "8E2yyGRmhitJ73wlO/dvMKcOktVY7fgGiFO3h/u3FvvcQBnUX+tDYtFekr82eF9g2sAQfEqc1nZAvjeinqHv4g==",
+    "DocX/1.0.0.19": {
+      "sha512": "ZoKdoM2ZlZ5bCBEtJHrTJMHICW3o9wsh6tStdqIXHh9mCjb+7o4+w5e6DWyNy2nnS5X7Q/eCFYQtyhInWMyc7w==",
       "type": "package",
-      "path": "docx/1.0.0.18",
+      "path": "docx/1.0.0.19",
       "files": [
-        "docx.1.0.0.18.nupkg.sha512",
+        "docx.1.0.0.19.nupkg.sha512",
         "docx.nuspec",
         "lib/net40/DocX.dll"
       ]
     },
-    "EPPlus/4.0.4": {
-      "sha512": "O8LP3wUpJZ9Th0BBAKHbR0hdlnWZw4HEeDtNGTs1cvqGsdywC/L5kBxliJRStKV4K8eMZUjFE5Mov/LU01+OZg==",
+    "EPPlus/4.0.5": {
+      "sha512": "KwB4UO2t/VU4EL2sZklhnMAT4VihqzrhsAwIuuzYYki3iqIoYjJ1ZRDcwFwWHQ4U4S6ZJhq9PIO95c4jtaqMHA==",
       "type": "package",
-      "path": "epplus/4.0.4",
+      "path": "epplus/4.0.5",
       "files": [
-        "epplus.4.0.4.nupkg.sha512",
+        "epplus.4.0.5.nupkg.sha512",
         "epplus.nuspec",
         "lib/net20/EPPlus.XML",
         "lib/net20/EPPlus.dll",
@@ -808,12 +808,12 @@
         "tools/install.ps1"
       ]
     },
-    "Fluent.Ribbon/3.5.1.198": {
-      "sha512": "Ix4NJKGVHqeI1PeF1PB6as5L7qRx2hyPiXg+iNJfjru33rRlAthWlyUTS4HJEajWPxCJfIaVWx5gPdBE7nVJlQ==",
+    "Fluent.Ribbon/3.6.1.236": {
+      "sha512": "jk6j5T6/TzswOW5EPPm9qwCdakNiUgi/GbOrTEeHh5fmISrJPSInJiOtnEmq6sMKZ0VhnTOc7dwWNjLRNMSOHA==",
       "type": "package",
-      "path": "fluent.ribbon/3.5.1.198",
+      "path": "fluent.ribbon/3.6.1.236",
       "files": [
-        "fluent.ribbon.3.5.1.198.nupkg.sha512",
+        "fluent.ribbon.3.6.1.236.nupkg.sha512",
         "fluent.ribbon.nuspec",
         "lib/net40/Fluent.XML",
         "lib/net40/Fluent.dll",
@@ -1461,6 +1461,9 @@
   "projectFileDependencyGroups": {
     "": [],
     ".NETFramework,Version=v4.6.1": [
+      "DocX >= 1.0.0.19 <= 1.0.0.19",
+      "EPPlus >= 4.0.5 <= 4.0.5",
+      "Fluent.Ribbon >= 3.6.1.236 <= 3.6.1.236",
       "HTMLDataTableCustomActivities >= 11.0.0 <= 11.0.0",
       "Microsoft.Activities.Extensions >= 2.0.6.9 <= 2.0.6.9",
       "System.Management.Automation >= 6.1.7601.17515 <= 6.1.7601.17515",
@@ -1494,6 +1497,21 @@
     "frameworks": {
       "net461": {
         "dependencies": {
+          "DocX": {
+            "include": "Runtime",
+            "target": "Package",
+            "version": "[1.0.0.19, 1.0.0.19]"
+          },
+          "EPPlus": {
+            "include": "Runtime",
+            "target": "Package",
+            "version": "[4.0.5, 4.0.5]"
+          },
+          "Fluent.Ribbon": {
+            "include": "Runtime",
+            "target": "Package",
+            "version": "[3.6.1.236, 3.6.1.236]"
+          },
           "HTMLDataTableCustomActivities": {
             "include": "Runtime",
             "target": "Package",

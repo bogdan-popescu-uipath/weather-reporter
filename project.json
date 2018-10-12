@@ -19,11 +19,14 @@
     "UiPath.Terminal.Activities": "[1.1.6464.20815]",
     "UiPath.UIAutomation.Activities": "[18.3.6810.23792]",
     "UiPath.WebAPI.Activities": "[1.1.6479.13209]",
-    "UiPath.Word.Activities": "[1.1.6479.13205]"
+    "UiPath.Word.Activities": "[1.1.6479.13205]",
+    "EPPlus": "[4.0.5]",
+    "DocX": "[1.0.0.19]",
+    "Fluent.Ribbon": "[3.6.1.236]"
   },
   "schemaVersion": "3.2",
   "studioVersion": "0.0.0.0",
-  "projectVersion": "1.0.[BuildNumber].[RevisionNumber]",
+  "projectVersion": "1.0.1.12",
   "runtimeOptions": {
     "autoDispose": false,
     "excludedLoggedData": [

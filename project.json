@@ -23,7 +23,7 @@
   },
   "schemaVersion": "3.2",
   "studioVersion": "0.0.0.0",
-  "projectVersion": "1.0.1.12",
+  "projectVersion": "1.0.[BuildNumber].[RevisionNumber]",
   "runtimeOptions": {
     "autoDispose": false,
     "excludedLoggedData": [
